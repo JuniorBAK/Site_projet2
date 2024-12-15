@@ -1,0 +1,129 @@
+ /* Global Styles */
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section d'accueil */
+#home {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+#home h2 {
+    color: #444;
+}
+
+/* Section des produits */
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.product {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Section À propos */
+#about {
+    padding: 2rem;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+#about h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Section contact */
+#contact {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+/* Autres sections... */
